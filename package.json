@@ -1,8 +1,8 @@
 {
-  "name": "megan-blog",
+  "name": "licht-moet-schijnen",
   "version": "1.0.0",
-  "description": "Animal Crossing Blog by Megan",
-  "author": "sdras",
+  "description": "Licht moet schijnen. Doe je mee? Hang een raamposter op en wees een lichtje in jouw straat!",
+  "author": "Martijn Smit <martijnsmitt@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

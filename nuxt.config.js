@@ -21,14 +21,15 @@ export default {
         hid: "description",
         name: "description",
         content: process.env.npm_package_description || ""
-      }
+      },
+      { hid: 'og:url', property: 'og:url', content: 'https://lichtmoetschijnen.nl' }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Molle:400i|Baloo+Paaji+2:400,500&display=swap"
+        "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       }
     ]
   },
@@ -39,7 +40,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: ["~/css/main.scss"],
+  css: [
+    "~/css/normalize.scss",
+    "~/css/main.scss"
+  ],
   render: {
     bundleRenderer: {
       shouldPreload: (file, type) => {
