@@ -20,12 +20,21 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "Licht moet schijnen. Doe je mee? Hang een raamposter op en wees een lichtje in jouw straat!"
       },
-      { hid: 'og:url', property: 'og:url', content: 'https://lichtmoetschijnen.nl' }
+      { hid: 'og:url', property: 'og:url', content: 'https://lichtmoetschijnen.nl' },
+      { name: "apple-mobile-web-app-title", content: "Licht moet schijnen" },
+      { name: "application-name", content: "Licht moet schijnen" },
+      { name: "msapplication-TileColor", content: "#b9a455" },
+      { name: "theme-color", content: "#b9a455" }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-touch-icon.png" },
+      { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" },
+      { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" },
+      { rel: "manifest", href: "/site.webmanifest" },
+      { rel: "mask-icon", href: "/safari-pinned-tab.svg", color: "#b9a455" },
       {
         rel: "stylesheet",
         href:
