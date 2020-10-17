@@ -24,9 +24,6 @@ export default {
     posts() {
       return this.$store.state.posts;
     }
-  },
-  head: {
-    title: "Licht moet schijnen"
   }
 };
 </script>
