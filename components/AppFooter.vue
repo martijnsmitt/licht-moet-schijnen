@@ -1,12 +1,5 @@
 <template>
   <footer>
-    <div class="container">
-      <img
-        src="~/assets/lichtmoetschijnen-logo.png"
-        alt="Licht moet schijnen."
-        class="logo"
-      >
-    </div>
   </footer>
 </template>
 
@@ -21,9 +14,5 @@ footer {
   display: flex;
   justify-content: center;
   padding: 15px;
-
-  .logo {
-    height: 50px;
-  }
 }
 </style>
